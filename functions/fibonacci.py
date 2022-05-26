@@ -15,6 +15,5 @@ def fib(n):
            b=c
            print(b ,  end = " ")
            
-           
 num= int(input("enter number of terms: "))
 fib(num)
