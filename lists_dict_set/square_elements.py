@@ -8,5 +8,4 @@ def sq_list(l):
 
 numbers = list(range(1,6))
 print(sq_list(numbers))
-        
-       
+             

@@ -5,8 +5,5 @@ def rev_el(l):
     return rev
     
     
-    
-    
-    
 alpha=['asd','jkl','bnm','rty']
 print(rev_el(alpha))

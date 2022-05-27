@@ -1,6 +1,5 @@
 #reverse the order of elements of a list
 
-
 # def rev(l):
 #     l.reverse()
 #     return l
