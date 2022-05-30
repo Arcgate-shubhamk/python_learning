@@ -1,8 +1,6 @@
 #  closure function
 # program to calculate powers
 
-
-
 def to_power(x):
     def calc(n):
         return n**x

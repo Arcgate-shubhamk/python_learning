@@ -3,5 +3,3 @@ def rev_str(l):
 
 
 print(rev_str(['qwe','sdf','cvb']))
-
-

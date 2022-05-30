@@ -13,5 +13,3 @@ users2 =[
 ]
 
 print(max(users2, key = lambda item:item.get('score')))
-
-
