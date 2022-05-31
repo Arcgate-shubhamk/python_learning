@@ -1,9 +1,11 @@
 from functools import wraps
+
+
 def only_int(function):
     @wraps(function)
-    def wrapper(*args,**kwargs): 
-        if all([type(arg)==int for arg in args]):
-            return function(*args,**kwargs)
+    def wrapper(*args, **kwargs):
+        if all([type(arg) == int for arg in args]):
+            return function(*args, **kwargs)
         print("invalid arguments")
         # data_types = []
         # for arg in args:
@@ -13,7 +15,8 @@ def only_int(function):
         # else:
         #         print('invalid argument')
     return wrapper
-    
+
+
 @only_int
 def add_all(*args):
     total = 0
@@ -21,4 +24,5 @@ def add_all(*args):
         total += i
     return total
 
-print(add_all(1,2,3,4,5,1.0))
+
+print(add_all(1, 2, 3, 4, 5, 1.0))
